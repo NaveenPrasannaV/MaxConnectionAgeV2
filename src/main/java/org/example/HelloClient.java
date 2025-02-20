@@ -20,7 +20,7 @@ public class HelloClient {
 
     System.out.println(LocalDateTime.now() + " STARTING");
 
-    for (int i = 0; i < 1; i++) {
+    for (int i = 0; i < 10; i++) {
       for (int j = 0; j < 100; j++) {
         String message = "Hello".repeat(1024 * 1024 * 5).substring(0, 4194250);
         HelloRequest request = HelloRequest.newBuilder()

@@ -18,4 +18,6 @@ public class HelloServiceImpl extends GreeterGrpc.GreeterImplBase {
     responseObserver.onNext(response);
     responseObserver.onCompleted();
   }
+
+
 }
